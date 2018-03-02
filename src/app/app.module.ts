@@ -34,6 +34,7 @@ import { PunditserviceService } from './share/punditservice.service';
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'views/:id', component: ViewComponent },
+      { path: 'index.html#/view/:id', component: ViewComponent },
       { path: '**', redirectTo: ''}
     ])
   ],
